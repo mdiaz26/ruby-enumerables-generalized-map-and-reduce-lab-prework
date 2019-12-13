@@ -9,5 +9,6 @@ ary
 end
 
 def reduce(array, starting_point = 0)
-array.reduce(yield)
+total = array.reduce
+yield(total)
 end
