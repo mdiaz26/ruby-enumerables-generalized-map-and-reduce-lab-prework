@@ -11,6 +11,4 @@ end
 def reduce(array, starting_point = 0)
 
 total = array.reduce(starting_point)
-yield(total)
-total
 end
