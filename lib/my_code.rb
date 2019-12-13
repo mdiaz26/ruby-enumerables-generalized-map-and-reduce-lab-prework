@@ -11,7 +11,7 @@ end
 def reduce(array, starting_point = 0)
 ary = []
 
-total = array.reduce
+total = array.reduce(starting_point)
 ary << total
 yield(total)
 ary
