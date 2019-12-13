@@ -9,7 +9,10 @@ ary
 end
 
 def reduce(array, starting_point = 0)
+ary = []
+
 total = array.reduce
+ary << total
 yield(total)
-total
+ary
 end
